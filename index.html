@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://api.fontshare.com/v2/css?f[]=chillax@400&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=chillax@600&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <div class="page_mrrn">
+    <nav class="header_VN_mrrn">
+      <div class="logo_mrrn"><img src="img/Logo.png"></div>
+      <div class="user_login_mrrn"><img src="img/Ellipse 4.png">Anna May</div>
+    </nav>
+    <div class="page_content_mrrn">
+      <div class="creator_big_mrrn"><img src="img/Ellipse 4.png">Anna May</div>
+
+      <div class="group">
+        <span class="title_and_button_mrrm">
+          <span class="title_middle_mrrn">Anna May's Videos<img src="img/video-square_black.png"></span>
+          <button onclick="openForm('addNewVideo')" class="color_button_mrrn">Add video</button>
+        </span>
+        <div class="overlay" id="overlay">
+          <div class="form-container" id="form-container">
+            <!-- Form content will be replaced when opening different forms -->
+          </div>
+        </div>
+        <div id="addNewVideo" class="overlay">
+          <div class="form-container" id="add-new-video-form-container">
+            <form class="form_content_mrrn">
+              <div class="text1_mrrn">
+                Add<span class="red_mrrn">&nbspNew&nbsp</span>Video
+              </div>
+        
+              <div class="title_standart_mrrn">Youtube Link</div>
+              <div class="input_standart_mrrn">
+                <input type="text" name="link" placeholder="Paste link…" />
+              </div>
+        
+              <div class="title_standart_mrrn">Name of video</div>
+              <div class="input_standart_mrrn">
+                <input type="text" name="name" placeholder="Type name…" />
+              </div>
+        
+              <div class="title_standart_mrrn">Description</div>
+              <div class="input_standart_mrrn">
+                <textarea id="Description" name="Description" placeholder="Type description…"
+                  style="padding: 15px; height: 134px; width: 100%"></textarea>
+              </div>
+        
+              <div class="form_buttons_mrrn">
+                <button class="border_button_mrrn">Cancel</button>
+                <button class="color_button_mrrn">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        
+        <ul class="artist_videos_mrrn">
+
+          <li><img src="img/video 1.png"><span class="title_standart_mrrn">Sea Shapes</span>
+            <span class="video_subtitle_mrrn">A very calm sea under the gentle rays of the sun</span></li>
+
+          <li><img src="img/video2.png"><span class="title_standart_mrrn">Sea Shapes</span>
+            <span class="video_subtitle_mrrn">A very calm sea under the gentle rays of the sun</span></li>
+
+          <li><img src="img/video3.png"><span class="title_standart_mrrn">Sea Shapes</span>
+            <span class="video_subtitle_mrrn">A very calm sea under the gentle rays of the sun</span></li>
+
+          <li><img src="img/video3.png"><span class="title_standart_mrrn">Sea Shapes</span>
+            <span class="video_subtitle_mrrn">A very calm sea under the gentle rays of the sun</span></li>
+
+          <li><img src="img/video4.png"><span class="title_standart_mrrn">Sea Shapes</span>
+            <span class="video_subtitle_mrrn">A very calm sea under the gentle rays of the sun</span></li>
+
+          <li><img src="img/video5.png"><span class="title_standart_mrrn">Sea Shapes</span>
+            <span class="video_subtitle_mrrn">A very calm sea under the gentle rays of the sun</span></li>
+
+          <li><img src="img/video6.png"><span class="title_standart_mrrn">Sea Shapes</span>
+            <span class="video_subtitle_mrrn">A very calm sea under the gentle rays of the sun</span></li>
+
+          <li><img src="img/video7.png"><span class="title_standart_mrrn">Sea Shapes</span>
+            <span class="video_subtitle_mrrn">A very calm sea under the gentle rays of the sun</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer_mrrn">
+      <a class="footer_logo_mrrn"><img src="img/LogoFoot.png"></a>
+      <div class="footer_text_mrrn">All Rights Reserved 2022</div>
+      <div class="contacts_mrrn">
+        <a><img src="img/Telegr.png"></a><a><img src="img/Disc.png"></a><a><img src="img/Twi.png"></a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
